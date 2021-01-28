@@ -1,0 +1,95 @@
+.master{
+    /* setting position of the entire grid*/
+    position: relative;
+    width: 260px;
+    height: 260px;
+    margin: 0 auto;
+    top: 25vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.grid-container{
+    /*specifying the template for the grid*/
+    display: grid;
+    border: 2px;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+/* specifying grid color and dimensions*/
+.grid-item1 {
+    background-color: blue;
+    border: 4px;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 70px;
+    height: 70px;
+}
+
+.grid-item2 {
+    background-color: deeppink;
+    border: 4px;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 70px;
+    height: 70px;
+}
+
+.grid-item3 {
+    background-color: yellow;
+    border: 4px;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 70px;
+    height: 70px;
+}
+.grid-item4 {
+    background-color: red;
+    border: 4px;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 70px;
+    height: 70px;
+}
+.grid-item5 {
+    background-color: green;
+    border: 4px;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 70px;
+    height: 70px;
+}
+.grid-item6 {
+    background-color: mediumvioletred;
+    border: 4px;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 70px;
+    height: 70px;
+}
+.grid-item7 {
+    background-color: bisque;
+    border: 4px;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 70px;
+    height: 70px;
+}
+.grid-item8 {
+    background-color: darkmagenta;
+    border: 4px;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 70px;
+    height: 70px;
+}
+.grid-item9 {
+    background-color: mediumaquamarine;
+    border: 4px;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 70px;
+    height: 70px;
+}
